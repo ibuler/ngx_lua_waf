@@ -1,5 +1,6 @@
 luac.out
 
+.idea
 # luarocks build files
 *.src.rock
 *.zip
