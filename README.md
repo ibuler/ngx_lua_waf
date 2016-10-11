@@ -15,7 +15,7 @@
     http段
     ...
     lua_package_path "/data/server/nginx/conf/waf/?.lua";
-        lua_shared_dict limit 10m;
+    lua_shared_dict limit 10m;
     ...
     
  4.在location中使用
