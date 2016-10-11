@@ -6,17 +6,19 @@
 
 
 #### 使用
-1. 安装Nginx和lua插件 或者直接安装 openresty
-2. git clone 
-3. nginx.conf 配置文件
+ 1.安装Nginx和lua插件 或者直接安装 openresty
+ 
+ 2.git clone 
+ 
+ 3.nginx.conf 配置文件
+
     http段
     ...
-    
     lua_package_path "/data/server/nginx/conf/waf/?.lua";
         lua_shared_dict limit 10m;
     ...
     
-4. 在location中使用
+ 4.在location中使用
 
     location / {
         access_by_lua '
@@ -30,10 +32,10 @@
         ...
     }
 
-5. reload
+ 5.reload
 
 #### 说明
-— 默认配置文件
+默认配置文件
 
     _M.defaults = {
         active = false,
