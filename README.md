@@ -1,11 +1,11 @@
-### nginx lua waf
+## nginx lua waf
 
-##### 参考
+### 参考
 1. https://github.com/loveshell/ngx_lua_waf
 2. https://github.com/p0pr0ck5/lua-resty-waf
 
 
-#### 使用
+### 使用
  1.安装Nginx和lua插件 或者直接安装 openresty
  
  2.git clone 
@@ -34,7 +34,7 @@
 
  5.reload
 
-#### 说明
+### 说明
 默认配置文件
 
     _M.defaults = {
