@@ -8,7 +8,10 @@
 ### 使用
  1.安装Nginx和lua插件 或者直接安装 openresty
  
- 2.git clone 
+ 2.下载ngx_lua_waf到nginx目录
+ 
+    cd /data/server/nginx/conf
+    git clone https://github.com/ibuler/ngx_lua_waf.git waf
  
  3.nginx.conf 配置文件
 
